@@ -1,1 +1,1 @@
-# lad_tasks
+Решение к задачам по javascript для стажировки в Lad
