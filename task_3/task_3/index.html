@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="css/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Задача №1</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         Задачу выполнил: Кобозев Павел Александрович
+      </header>
+      <main class="main">
+         <div class="difficulty">
+            <h1>Выбрать сложность: </h1>
+            <button class="difficulty__button" onclick="setDifficulty(3)">3</button>
+            <button class="difficulty__button" onclick="setDifficulty(4)">4</button>
+            <button class="difficulty__button" onclick="setDifficulty(5)">5</button>
+            <button class="difficulty__button" onclick="setDifficulty(6)">6</button>
+         </div>
+         <div class="main__container">
+            <div class="answer">
+               <div class="answer__form">
+                  <input id="answer" type="text" placeholder="ваш ответ">
+                  <input id="confirm" type="button" value="отправить" onclick="getAnswer()">
+               </div>
+            </div>
+            <div class="result">
+               <h1>Результат:</h1>
+               <div class="result__0"></div>
+               <div class="result__1"></div>
+               <div class="result__2"></div>
+               <div class="result__3"></div>
+               <div class="result__4"></div>
+               <div class="result__5"></div>
+               <div class="counter">число попыток: </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+
+      </footer>
+   </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
